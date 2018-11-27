@@ -6,11 +6,11 @@ Description
 
 Writing unit tests for the Truffle test platform and running them on Ganache CLI, when
 
-    #) an EVM snapshot is created,
-    #) the EVM state changed,
-    #) the EVM snapshot reverted back,
-    #) a new EVM snapshot created,
-    #) the EVM state changed again
+    1) an EVM snapshot is created,
+    2) the EVM state changed,
+    3) the EVM snapshot reverted back,
+    4) a new EVM snapshot created,
+    5) the EVM state changed again
 
 the EVM ends up in a state which contains information from the first (reverted) state.
 
@@ -18,19 +18,19 @@ the EVM ends up in a state which contains information from the first (reverted) 
 Steps to reproduce
 ------------------
 
-#) Check out Truffle test project and to navigate into the repo and install dependencies
+1) Check out Truffle test project and to navigate into the repo and install dependencies
 
     git clone https://github.com/outofgas/ganache-snapshot-issue
     cd ganache-snapshot-issue
     npm install
 
-#) Run the Truffle test suite on Truffle's internal test net
+2) Run the Truffle test suite on Truffle's internal test net
 
     node_modules/.bin/truffle test
 
    The tests should be successful.
 
-#) Open a second terminal and navigate to the repo dir and start a Ganache CLI instance
+3) Open a second terminal and navigate to the repo dir and start a Ganache CLI instance
 
     node_modules/.bin/ganache-cli
 
