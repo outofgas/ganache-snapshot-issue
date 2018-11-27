@@ -44,24 +44,24 @@ Steps to reproduce
 Environment
 -----------
 
-*   `uname -srm`
+* `uname -srm`
 
-    FreeBSD 11.2-RELEASE amd64
+    FreeBSD 11.2-RELEASE amd64`
 
-*   `node --version`
+* `node --version`
 
     v11.1.0
 
-*   `npm --version`
+* `npm --version`
 
     6.4.1
 
-*   `truffle version`
+* `truffle version`
 
     Truffle v4.1.14 (core: 4.1.14)
     Solidity v0.4.24 (solc-js)
 
-*   `ganache-cli --version`
+* `ganache-cli --version`
 
     Ganache CLI v6.2.3 (ganache-core: 2.3.1)
 
